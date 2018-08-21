@@ -1,0 +1,11 @@
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\obj\Debug\netcoreapp2.1\AprendiendoC-.csprojAssemblyReference.cache
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\obj\Debug\netcoreapp2.1\AprendiendoC-.csproj.CoreCompileInputs.cache
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\obj\Debug\netcoreapp2.1\AprendiendoC-.AssemblyInfoInputs.cache
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\obj\Debug\netcoreapp2.1\AprendiendoC-.AssemblyInfo.cs
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\bin\Debug\netcoreapp2.1\AprendiendoC-.deps.json
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\bin\Debug\netcoreapp2.1\AprendiendoC-.runtimeconfig.json
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\bin\Debug\netcoreapp2.1\AprendiendoC-.runtimeconfig.dev.json
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\bin\Debug\netcoreapp2.1\AprendiendoC-.dll
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\bin\Debug\netcoreapp2.1\AprendiendoC-.pdb
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\obj\Debug\netcoreapp2.1\AprendiendoC-.dll
+C:\Users\WDavid\Documents\AprendiendoC#\AprendiendoC-\obj\Debug\netcoreapp2.1\AprendiendoC-.pdb
