@@ -47,6 +47,15 @@ namespace AprendiendoC_
             Console.WriteLine("Division {0}",x/y);
             //Residuo
             Console.WriteLine("Residuo {0}", x % y);
+            //Operador de Asignacion
+            Console.WriteLine("X le sumamos 10 :{0}" , x+=10);
+            Console.WriteLine("y le restamos 3 :{0}" , y+=3);
+            Console.WriteLine("x lo multplicamos por 2 :{0}" , x*=2);
+            Console.WriteLine("y lo divimos entre 1: {0}" , y/=1);
+            //Incremento
+            Console.Write("Incrementamos x {0}" , x++);
+            //Decremento
+            Console.Write("Decrecemos  y {0}" , y++);
         }
     }
 }
