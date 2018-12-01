@@ -56,23 +56,61 @@ namespace AprendiendoC_
                     case 1:
                         //Residuo
                         Console.WriteLine("Residuo {0}", x % y);
+                        break;
                     case 2:
                         //Operador de Asignacion
                         Console.WriteLine("X le sumamos 10 :{0}" , x+=10);
                         Console.WriteLine("y le restamos 3 :{0}" , y+=3);
+                        break;
                     case 3:
                         Console.WriteLine("x lo multplicamos por 2 :{0}" , x*=2);
                         Console.WriteLine("y lo divimos entre 1: {0}" , y/=1);
+                        break;
+                    default:
+                        //Incremento
+                        Console.Write("Incrementamos x {0}" , x++);
+                        //Decremento
+                        Console.Write("Decrecemos  y {0}" , y++);
+                        break;
                 }
-
             }
-            
-            /
-            
-            //Incremento
-            Console.Write("Incrementamos x {0}" , x++);
-            //Decremento
-            Console.Write("Decrecemos  y {0}" , y++);
+            //ciclo while
+            Console.WriteLine("ingrese el numero de veces del ciclo");
+            var num = Console.ReadLine();
+            while(num < 10){
+                Console.WriteLine(num);
+                num++;
+            }
+
+            //ciclo for
+            for(int num; num<10;num++){
+                Console.WriteLine("Valor de x :{0}" , x);
+            }
+
+            if(num == 6){
+                for(;x<10;num+=2){
+                    Console.WriteLine("Valor de x :{0}" , x);
+                }
+            }
+            //do while
+            do{
+                Console.WriteLine(num);
+                num++;
+            }while(num < 10);
+
+            for(;num>10;num++){
+                if(num == 11)
+                break;
+                Console.WriteLine(num);
+            }
+
+            for(;num>5;num++){
+                if(num == 3)
+                continue;
+                Console.WriteLine(num);
+            }
+
+
         }
     }
 }
