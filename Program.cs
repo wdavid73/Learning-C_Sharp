@@ -15,12 +15,12 @@ namespace AprendiendoC_
             Console.WriteLine("Cual es tu nombre?");
              name = Console.ReadLine();
              Console.WriteLine("Hola {0}", name);
-
+*/
              //Tomar entrada del usuario como numero
              Console.WriteLine("Cual es tu edad?");
-             int age = Convert.ToInt32(Console.ReadLine());
+             var age = Console.ReadLine();
              Console.WriteLine("tu edad es: {0}",age);
-        
+/*       
             //Tomar entrada del usuario como numero con varible var
              Console.WriteLine("Cual es tu edad? con var");
              var age2 = Console.ReadLine();
@@ -109,6 +109,11 @@ namespace AprendiendoC_
                 continue;
                 Console.WriteLine(num);
             }
+
+            // operador ?:
+            string msg;
+            msg=(age >= 18)? "mayor de edad":"menor de edad";
+            Console.WriteLine(msg);
 
 
         }
