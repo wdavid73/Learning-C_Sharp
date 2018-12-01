@@ -115,6 +115,36 @@ namespace AprendiendoC_
             msg=(age >= 18)? "mayor de edad":"menor de edad";
             Console.WriteLine(msg);
 
+            // calculadora basica
+
+            do{
+                Console.WriteLine("num1 = ");
+                string str = Console.ReadLine();
+                if(str == "exit")
+                break;
+
+                int num1 =Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("num2 = ");
+                int num2 =Convert.ToInt32(Console.ReadLine());
+                
+                int sum = num1+num2;
+                Console.WriteLine("suma : {0}" , sum);
+
+                int res = num1-num2;
+                Console.WriteLine("resta: {0}" , res);
+
+                int mul = num1*num2;
+                Console.WriteLine("multiplicacion : {0}" , mul);
+                
+                if(num2 != 0)
+                break;
+                    int div = num1/num2;
+                    Console.WriteLine("division : {0}" , div);
+                    
+
+            }while(true);
+
 
         }
     }
