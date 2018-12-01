@@ -37,21 +37,38 @@ namespace AprendiendoC_
             int x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingrese el valor de y");
             int y = Convert.ToInt32(Console.ReadLine());;
-            //Suma
-            Console.WriteLine("Suma {0}", x+y);
-            //Resta
-            Console.WriteLine("Resta {0}",x-y);
-            //Multiplicacion
-            Console.WriteLine("Multiplicacion {0}",x*y);
-            //Division
-            Console.WriteLine("Division {0}",x/y);
-            //Residuo
-            Console.WriteLine("Residuo {0}", x % y);
-            //Operador de Asignacion
-            Console.WriteLine("X le sumamos 10 :{0}" , x+=10);
-            Console.WriteLine("y le restamos 3 :{0}" , y+=3);
-            Console.WriteLine("x lo multplicamos por 2 :{0}" , x*=2);
-            Console.WriteLine("y lo divimos entre 1: {0}" , y/=1);
+            //condicionales
+
+            if(x > y){
+                //Suma
+                Console.WriteLine("Suma {0}", x+y);
+                //Resta
+                Console.WriteLine("Resta {0}",x-y);
+            }else{
+                //Multiplicacion
+                Console.WriteLine("Multiplicacion {0}",x*y);
+                //Division
+                Console.WriteLine("Division {0}",x/y);
+            }
+            //switch o casos
+            if(y==x){
+                switch(y){
+                    case 1:
+                        //Residuo
+                        Console.WriteLine("Residuo {0}", x % y);
+                    case 2:
+                        //Operador de Asignacion
+                        Console.WriteLine("X le sumamos 10 :{0}" , x+=10);
+                        Console.WriteLine("y le restamos 3 :{0}" , y+=3);
+                    case 3:
+                        Console.WriteLine("x lo multplicamos por 2 :{0}" , x*=2);
+                        Console.WriteLine("y lo divimos entre 1: {0}" , y/=1);
+                }
+
+            }
+            
+            /
+            
             //Incremento
             Console.Write("Incrementamos x {0}" , x++);
             //Decremento
